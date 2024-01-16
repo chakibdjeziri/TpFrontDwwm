@@ -1,0 +1,234 @@
+/* GENERAL */
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: #000000fe;
+}
+
+body,
+header,
+section {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+#steps,#possibilites{
+    display: flex;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #444;
+}
+
+h1 {
+  font-family: "crete round", serif;
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 52px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.wrapper {
+  min-width: 950px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+small {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+}
+
+/* HEADER */
+
+header {
+  height: 69px;
+  display: flex;
+}
+
+header img {
+  margin-right: 10px;
+  float: left;
+  
+}
+
+header nav {
+  margin-top: 10px;
+  float: left;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+header nav ul li {
+float: right;
+}
+
+header nav ul li a {
+  margin-left: 100px;
+  font-size: small;
+  text-decoration: underline;
+
+
+}
+
+/* MAIN IMAGE */
+
+#main_image {
+  height: 580px;
+  width: 100%;
+  background: url(/Users/dev/Desktop/site_tp/img/img-mission-background.jpeg) center no-repeat;
+}
+
+#main_image2 {
+  height: 580px;
+  width: 100%;
+  background: url(../img/img-locations-background.jpeg) center no-repeat;
+}
+
+
+#main_image .div1{
+  background-color: #000000;
+  color: #efefef;
+  width: 300px;
+  height: 300px;
+}
+#main_image h4,h2{
+  text-align: center;
+  font-weight: normal;
+  background-color: #000000;
+  color: #ddd;
+  width: 1200px;
+  margin-left: 110px;
+
+}
+
+.button_1 {
+  width: 120px;
+  height: 50px;
+  display: block;
+  background: #ff7a08;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button_1:hover {
+  background: #02b8dd;
+}
+
+/* STEPS */
+
+#steps ul {
+  margin: 80px 0;
+}
+
+#steps ul li {
+  width: 300px;
+  padding-top: 140px;
+  margin-right: 10px;
+  float: left;
+  text-align: center;
+}
+
+#steps h4 {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+#steps p {
+  margin-bottom: 30px;
+}
+
+#step1 {
+  background: url(../img/img-berryblitz.jpeg) no-repeat top center;
+  margin-top: 15px;
+}
+
+#step2 {
+  background: url(../img/img-spiced-rum.jpeg) no-repeat top center;
+  margin-top: 15px;
+}
+
+#step3 {
+  background: url(../img/img-donut.jpeg) no-repeat top center;
+  margin-top: 15px;
+}
+
+#step4 {
+  background: url(../img/img-donut.jpeg) no-repeat top center;
+  margin-top: 15px;
+}
+
+#step5 {
+  background: url(../img/img-bedford-bizarre.jpeg) no-repeat top center;
+  margin-top: 15px;
+}
+
+/* FOOTER */
+footer {
+  height: 260px;
+  background: #000000;
+}
+
+footer h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.copyright2{
+  font-weight: bold;
+  padding-top: 30px;
+  color: #fff;
+}
