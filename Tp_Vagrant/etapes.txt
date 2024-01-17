@@ -1,0 +1,23 @@
+1 
+mkdir tp_vagrant
+vagrant init ubuntu/trusty64
+
+2 ouvrir le Vagrantfile , la configuration demandée était déjà là
+
+3  vagrant up
+
+4  vagrant ssh
+
+5 sudo apt-get update
+
+Installation 
+ sudo apt-get install nginx -y 
+ sudo service nginx start
+ sudo service nginx enable
+ sudo service nginx status
+
+6 curl 127.0.0.1
+
+7  exit ou logout
+
+8  vagrant halt (et vérifier avec  vagrant status)
